@@ -38,7 +38,7 @@ export default function Categories({ categories }: { categories: Category[] }) {
           >
             <CategoryImage
               image={category.image}
-              alt={`XMSD ${category.name}`}
+              alt={`MSD ${category.name}`}
               sizes="(max-width: 880px) 50vw, 25vw"
             />
             <h4>{category.name}</h4>

@@ -51,7 +51,7 @@ export default function HeaderNav({
     <header>
       <div className="nav">
         <Link href="/" className="logo">
-          XMSD <span>Professional</span>
+          MSD <span>Professional</span>
         </Link>
 
         <nav className="nav-links" aria-label="Categories">
@@ -123,7 +123,7 @@ export default function HeaderNav({
           </Link>
         ))}
         <Link href="/#story" className="mobile-menu-minor">
-          About XMSD
+          About MSD
         </Link>
         <Link href="/products" className="btn btn-solid">
           Shop the range

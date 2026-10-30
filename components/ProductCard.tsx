@@ -30,7 +30,7 @@ export default function ProductCard({ product, priority = false }: ProductCardPr
             sizes="(max-width: 480px) 80vw, (max-width: 860px) 44vw, (max-width: 1100px) 30vw, 250px"
           />
         ) : (
-          <span className="thumb-fallback">XMSD</span>
+          <span className="thumb-fallback">MSD</span>
         )}
       </Link>
 

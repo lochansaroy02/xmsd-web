@@ -11,7 +11,7 @@ export default function FeatureBanner() {
           <span className="section-tag">Behind the tools</span>
           <h2>Made for the tenth client of the day, not just the first.</h2>
           <p>
-            Chairs and benches don&apos;t slow down after lunch. Every XMSD clip, brush, and blade is tested for grip
+            Chairs and benches don&apos;t slow down after lunch. Every MSD clip, brush, and blade is tested for grip
             strength and finish after repeated use — so it performs the same on client one and client twelve.
           </p>
           <div className="feature-cta">
@@ -39,7 +39,7 @@ export default function FeatureBanner() {
           </div>
         </div>
         <div className="feature-img">
-          <Image src={clipDetail} alt="Close detail of an XMSD sectioning clip" sizes="(max-width: 880px) 90vw, 45vw" />
+          <Image src={clipDetail} alt="Close detail of an MSD sectioning clip" sizes="(max-width: 880px) 90vw, 45vw" />
         </div>
       </div>
     </section>

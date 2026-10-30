@@ -17,7 +17,7 @@ export default function Bestsellers({ products }: { products: ProductListItem[] 
           <h2>What&apos;s in the kit bag right now.</h2>
         </div>
         <p>
-          The eight tools stylists and technicians reorder the most, pulled live from the XMSD catalogue.
+          The eight tools stylists and technicians reorder the most, pulled live from the MSD catalogue.
         </p>
       </div>
 

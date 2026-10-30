@@ -35,8 +35,7 @@ export async function GET(request: NextRequest) {
   ]);
 
   const named = searchByName(products, query);
-  const seen = new Set(named.map((p) => p.slug));
-  const catalogue = new Map(products.map((p) => [p.slug, p]));
+  const seen = new Set(named.map((p) => p.slug));  const catalogue = new Map(products.map((p) => [p.slug, p]));
 
   // Look keyword hits up in the catalogue: that scopes them to MSD and keeps the data consistent.
   const keyword = keywordHits

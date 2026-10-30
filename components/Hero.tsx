@@ -15,7 +15,7 @@ export default function Hero({ productCount }: HeroProps) {
         <div className="hero-kicker">Salon-grade tools, engineered for precision</div>
         <h1>Instruments for exacting hands.</h1>
         <p className="hero-sub">
-          XMSD builds the sectioning clips, brushes, and nail &amp; foot-care instruments that stylists and
+          MSD builds the sectioning clips, brushes, and nail &amp; foot-care instruments that stylists and
           technicians reach for on a full-booked day — durable, exact, and made to be used hundreds of times a
           week.
         </p>
@@ -31,7 +31,7 @@ export default function Hero({ productCount }: HeroProps) {
         <div className="hero-stats">
           <div>
             <b>320+</b>
-            <span>Salons stocking XMSD</span>
+            <span>Salons stocking MSD</span>
           </div>
           <div>
             <b>{productCount || 20}</b>
@@ -45,10 +45,10 @@ export default function Hero({ productCount }: HeroProps) {
       </div>
       <div className="hero-art">
         <div className="plate p1" />
-        <Image className="prod-1" src={clipsViolet} alt="XMSD sectioning clips in violet" priority sizes="(max-width: 880px) 45vw, 280px" />
-        <Image className="prod-2" src={paddleBrushRed} alt="XMSD red paddle brush" priority sizes="(max-width: 880px) 34vw, 210px" />
-        <Image className="prod-3" src={manicureSet} alt="XMSD manicure set" sizes="(max-width: 880px) 40vw, 250px" />
-        <Image className="prod-4" src={nailCarePen} alt="XMSD nail care pen" sizes="(max-width: 880px) 30vw, 190px" />
+        <Image className="prod-1" src={clipsViolet} alt="MSD sectioning clips in violet" priority sizes="(max-width: 880px) 45vw, 280px" />
+        <Image className="prod-2" src={paddleBrushRed} alt="MSD red paddle brush" priority sizes="(max-width: 880px) 34vw, 210px" />
+        <Image className="prod-3" src={manicureSet} alt="MSD manicure set" sizes="(max-width: 880px) 40vw, 250px" />
+        <Image className="prod-4" src={nailCarePen} alt="MSD nail care pen" sizes="(max-width: 880px) 30vw, 190px" />
         <div className="tag">
           <span className="tag-dot" /> Restocked this week
         </div>

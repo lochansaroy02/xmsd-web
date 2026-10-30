@@ -24,7 +24,7 @@ export async function generateMetadata({
 
   return {
     title: product.name,
-    description: product.short_description ?? `${product.name} — ${product.brand?.name ?? 'XMSD'} professional tool.`,
+    description: product.short_description ?? `${product.name} — ${product.brand?.name ?? 'MSD'} professional tool.`,
     openGraph: {
       title: product.name,
       images: product.main_image ? [product.main_image] : undefined,
@@ -94,7 +94,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           <div className="pdp-meta">
             <div>
               <span>Brand</span>
-              <b>{product.brand?.name ?? 'XMSD'}</b>
+              <b>{product.brand?.name ?? 'MSD'}</b>
             </div>
             {variant?.sku && (
               <div>

@@ -20,13 +20,13 @@ const sans = Instrument_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'XMSD Professional — Instruments for Exacting Hands',
-    template: '%s — XMSD Professional',
+    default: 'MSD Professional — Instruments for Exacting Hands',
+    template: '%s — MSD Professional',
   },
   description:
-    'XMSD builds the sectioning clips, brushes, and nail & foot-care instruments that stylists and technicians reach for on a full-booked day.',
+    'MSD builds the sectioning clips, brushes, and nail & foot-care instruments that stylists and technicians reach for on a full-booked day.',
   openGraph: {
-    title: 'XMSD Professional — Instruments for Exacting Hands',
+    title: 'MSD Professional — Instruments for Exacting Hands',
     description:
       'Salon-grade tools for hair, nail, and foot care — durable, exact, and made to be used hundreds of times a week.',
     type: 'website',

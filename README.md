@@ -1,6 +1,6 @@
-# XMSD Professional
+# MSD Professional
 
-The XMSD marketing site, converted from a single static `index.html` to a Next.js 15 App Router
+The MSD marketing site, converted from a single static `index.html` to a Next.js 15 App Router
 app. Products are pulled live from the Barber Syndicate API.
 
 ## Run it

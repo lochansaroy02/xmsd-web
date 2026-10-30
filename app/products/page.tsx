@@ -6,7 +6,7 @@ import { getBrandCategories } from '@/lib/categories';
 
 export const metadata: Metadata = {
   title: 'All products',
-  description: 'The full XMSD tool catalogue — hair, skin & body, and manicure tools.',
+  description: 'The full MSD tool catalogue — hair, skin & body, and manicure tools.',
 };
 
 export default async function ProductsPage({
@@ -21,10 +21,10 @@ export default async function ProductsPage({
       <div className="section-head">
         <div>
           <span className="section-tag">The full range</span>
-          <h2>Every XMSD tool, in one place.</h2>
+          <h2>Every MSD tool, in one place.</h2>
         </div>
         <p>
-          Live from the XMSD catalogue — pick a category, search by tool, or sort by price and saving.
+          Live from the MSD catalogue — pick a category, search by tool, or sort by price and saving.
         </p>
       </div>
 

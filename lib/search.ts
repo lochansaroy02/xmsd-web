@@ -47,7 +47,7 @@ export function scoreByName(item: Searchable, query: string): number {
 
   const name = normalize(item.name);
   const nameWords = name.split(' ');
-  const contextWords = normalize(`${item.category} ${item.brand ?? ''} xmsd`).split(' ');
+  const contextWords = normalize(`${item.category} ${item.brand ?? ''} msd`).split(' ');
 
   let score = 0;
   for (const token of tokens) {

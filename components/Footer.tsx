@@ -11,17 +11,17 @@ export default async function Footer() {
         <div className="foot-grid">
           <div className="foot-brand">
             <Link href="/" className="logo">
-              XMSD <span>Professional</span>
+              MSD <span>Professional</span>
             </Link>
             <p>Precision tools for hair, nail, and foot care — built for stations that don&apos;t get a slow day.</p>
             <div className="foot-social">
-              <a href="#" aria-label="XMSD on Instagram">
+              <a href="#" aria-label="MSD on Instagram">
                 <InstagramIcon />
               </a>
-              <a href="#" aria-label="XMSD on X">
+              <a href="#" aria-label="MSD on X">
                 <TwitterIcon />
               </a>
-              <a href="#" aria-label="XMSD on Facebook">
+              <a href="#" aria-label="MSD on Facebook">
                 <FacebookIcon />
               </a>
             </div>
@@ -55,7 +55,7 @@ export default async function Footer() {
           </div>
         </div>
         <div className="foot-bottom">
-          <span>© {new Date().getFullYear()} XMSD Professional. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} MSD Professional. All rights reserved.</span>
           <span>Privacy policy · Terms &amp; conditions</span>
         </div>
       </div>

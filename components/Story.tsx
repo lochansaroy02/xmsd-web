@@ -14,8 +14,8 @@ export default function Story() {
     <section className="section wrap" id="story">
       <div className="story">
         <div className="story-media">
-          <Image src={paddleBrushLineup} alt="XMSD paddle brush lineup" sizes="(max-width: 880px) 90vw, 45vw" />
-          <button className="play" type="button" aria-label="Play the XMSD workshop film">
+          <Image src={paddleBrushLineup} alt="MSD paddle brush lineup" sizes="(max-width: 880px) 90vw, 45vw" />
+          <button className="play" type="button" aria-label="Play the MSD workshop film">
             <PlayIcon />
           </button>
         </div>
@@ -23,7 +23,7 @@ export default function Story() {
           <span className="section-tag">Our story</span>
           <h2>Tools first, brand second.</h2>
           <p className="lead">
-            XMSD started with a single request from a barber shop that kept snapping cheap clips mid-shift: build one
+            MSD started with a single request from a barber shop that kept snapping cheap clips mid-shift: build one
             that survives a full week of colour, cut, and blow-dry stations. Every product since has been judged the
             same way — by whether a professional would trust it on a paying client.
           </p>

@@ -24,7 +24,7 @@ export async function generateMetadata({
 
   return {
     title: category.name,
-    description: `${category.count} professional ${category.name.toLowerCase()} from XMSD, from ${formatPrice(category.fromPrice)}.`,
+    description: `${category.count} professional ${category.name.toLowerCase()} from MSD, from ${formatPrice(category.fromPrice)}.`,
     openGraph: typeof category.image === 'string' ? { images: [category.image] } : undefined,
   };
 }
@@ -51,7 +51,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           <span className="section-tag">Shop by category</span>
           <h1>{category.name}</h1>
           <p>
-            {category.count} XMSD {category.name.toLowerCase()} built for a full day at the station — every one
+            {category.count} MSD {category.name.toLowerCase()} built for a full day at the station — every one
             listed live from the catalogue, from {formatPrice(category.fromPrice)}.
           </p>
           <div className="feature-cta">
@@ -83,7 +83,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <div className="feature-img">
           <CategoryImage
             image={category.image}
-            alt={`XMSD ${category.name}`}
+            alt={`MSD ${category.name}`}
             sizes="(max-width: 880px) 80vw, 40vw"
             priority
           />
